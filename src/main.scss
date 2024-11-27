@@ -1,0 +1,17 @@
+@use "./scss/themes/dark-theme" as theme;
+@use "./scss/components/navbar";
+
+// Utilisez les variables avec le préfixe `theme.`
+* {
+  font-family: sans-serif;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+section {
+  block-size: border-box;
+  overflow-x: hidden;
+}
